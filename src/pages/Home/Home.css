@@ -150,7 +150,7 @@
   /* ==== CTA ==== */
   .cta {
     margin-top: 5vh;
-  background-image: url('/public/img/25.png'); /* путь к твоему фону */
+  background-image: url('/public/img_home/25.png'); /* путь к твоему фону */
   background-size: cover;
   background-position: center;
   padding: 60px 40px;
@@ -304,7 +304,7 @@
   }
   /* ==== AI HELPER ==== */
   .ai-full-bg {
-    background-image: url('/public/img/Ai.png'); /* путь к изображению */
+    background-image: url('/public/img_home/Ai.png'); /* путь к изображению */
     background-size: cover;
     background-position: center;
     width: 67%;

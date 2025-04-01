@@ -20,38 +20,38 @@ const Home = () => {
           </div>
         </div>
         <div className="hero-image">
-          <img src="/img/student.png" alt="Student" />
+          <img src="/img_home/student.png" alt="Student" />
         </div>
       </section>
 
       {/* Stats Section */}
       <section className="stats">
-        <img src="/img/stats.png" alt="Stats" className="stats-img" />
+        <img src="/img_home/stats.png" alt="Stats" className="stats-img" />
       </section>
 
       {/* Benefits Section */}
       <section className="benefits">
         <div className="veiks">
-          <img src="/img/veiksmiga.png" alt="Veiksmiga" />
+          <img src="/img_home/veiksmiga.png" alt="Veiksmiga" />
         </div>
 
         <div className="cards">
           <div className="card-large">
-            <img src="/img/atestats.png" alt="Atestāts" />
+            <img src="/img_home/atestats.png" alt="Atestāts" />
           </div>
           <div className="card">
-            <img src="/img/macija.png" alt="Grafiks" />
+            <img src="/img_home/macija.png" alt="Grafiks" />
           </div>
           <div className="card-large">
-            <img src="/img/world.png" alt="Pasaule" />
+            <img src="/img_home/world.png" alt="Pasaule" />
           </div>
           <div className="card">
-            <img src="/img/skolotaja.png" alt="Skolotājs" />
+            <img src="/img_home/skolotaja.png" alt="Skolotājs" />
           </div>
         </div>
 
         <div className="join-block">
-          <img src="/img/pievenojes.png" alt="Join us" />
+          <img src="/img_home/pievenojes.png" alt="Join us" />
         </div>
       </section>
 
@@ -84,10 +84,10 @@ const Home = () => {
       <section className="learning">
         <div className="learning-columns">
             <div className = "mac-logo">
-                <img src="/img/mac.png" alt="Macamies" />
+                <img src="/img_home/mac.png" alt="Macamies" />
             </div>
           <div className="learning-box">
-            <img src="/img/learn.png" alt="Learning" />
+            <img src="/img_home/learn.png" alt="Learning" />
           </div>
         </div>
       </section>
