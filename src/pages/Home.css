@@ -295,29 +295,46 @@
   }
   
   /* ==== AI HELPER ==== */
-  .ai-helper {
-    padding: 40px;
-    text-align: center;
-    background: #ede9fe;
+  .ai-full-bg {
+    background-image: url('/public/img/Ai.png'); /* путь к изображению */
+    background-size: cover;
+    background-position: center;
+    width: 67%;
+    margin-left:15%;
+    height: 400px; /* можешь поменять на auto, min-height или vw/vh */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
   }
   
-  .ai-helper input {
-    padding: 12px;
-    width: 60%;
-    max-width: 400px;
-    margin-top: 12px;
+  .ai-floating-form {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .ai-floating-form input {
+    padding: 12px 16px;
     border-radius: 8px;
-    border: 1px solid #ccc;
+    border: none;
+    min-width: 250px;
+    font-size: 1rem;
   }
   
-  .ai-helper button {
-    display: block;
-    margin: 12px auto 0;
-    background: #6d28d9;
+  .ai-floating-form button {
+    background-color: #6d28d9;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 8px;
+    font-size: 1rem;
     cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .ai-floating-form button:hover {
+    background-color: #5b21b6;
   }
   

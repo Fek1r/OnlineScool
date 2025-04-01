@@ -113,12 +113,12 @@ const Home = () => {
       </section>
 
       {/* AI Helper */}
-      <section className="ai-helper">
-        <h3>Vai Jums ir vēl kādi jautājumi?</h3>
-        <p><strong>Jūsu personīgais palīgs par mācību jautājumiem!</strong></p>
-        <input type="text" placeholder="Uzdodiet savu jautājumu..." />
-        <button>Nosūtīt</button>
-      </section>
+      <section className="ai-full-bg">
+      <form className="ai-floating-form">
+        <input type="text" placeholder="Uzrakstiet savu jautājumu..." />
+        <button type="submit">Nosūtīt</button>
+      </form>
+    </section>
     </div>
   );
 };
