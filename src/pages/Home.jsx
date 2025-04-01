@@ -16,7 +16,7 @@ const Home = () => {
           </div>
         </div>
         <div className="hero-image">
-         <img src="/img/student.png" alt="Student" />
+          <img src="/img/student.png" alt="Student" />
         </div>
       </section>
 
@@ -25,25 +25,33 @@ const Home = () => {
         <img src="/img/stats.png" alt="Stats" className="stats-img" />
       </section>
 
-      {/* Benefits Section */}
+      {/* Benefits Section with images */}
       <section className="benefits">
-        <h2>Tava veiksmīgā nākotne sākas <span className="highlight">šeit</span></h2>
+        <div className = "veiks">
+            <img src="/img/veiksmiga.png" alt="Veiksmiga" />
+        </div>
         <div className="cards">
-          <div className="card yellow">
-            <h3>Eiropas parauga diploms un valsts atestāts</h3>
-            <p>Pēc apmācību beigām Jūs saņemsiet diplomu, kas būs līdzvērtīgs jebkuram citam Eiropas vidējās izglītības dokumentam.</p>
+            <div className="card card-large">
+                <img src="/img/atestats.png" alt="Atestāts" />
+            </div>
+            <div className="card">
+                <img src="/img/macija.png" alt="Grafiks" />
+            </div>
+            <div className="card card-large">
+                <img src="/img/world.png" alt="Pasaule" />
+            </div>
+            <div className="card">
+                <img src="/img/skolotaja.png" alt="Skolotājs" />
+            </div>
+        </div>
+        <div className="join-block">
+          <div className="join-text">
+            <h3>Pievienojies <span className="highlight">4000+ veiksmīgiem skolēniem!</span></h3>
+            <p>[Skolas nosaukums] Jūs atradīsiet ne tikai zināšanas, bet arī domubiedru atbalstu.</p>
+            <button className="primary">Izmēģināt</button>
           </div>
-          <div className="card">
-            <h3>Ērts mācību grafiks</h3>
-            <p>Mācies pats savā ritmā. Nodarbības tiek ierakstītas, tāpēc vari mācīties tad, kad Tev ir ērti.</p>
-          </div>
-          <div className="card">
-            <h3>Mācības no jebkuras vietas pasaulē</h3>
-            <p>Viss, kas Tev nepieciešams, ir internets.</p>
-          </div>
-          <div className="card">
-            <h3>Nodarbības ar pieredzējušiem skolotājiem</h3>
-            <p>Skolotāji ir profesionāļi, kuri pielāgojas skolēnu vajadzībām.</p>
+          <div className="join-image">
+            <img src="/img/join.png" alt="Join us" />
           </div>
         </div>
       </section>
