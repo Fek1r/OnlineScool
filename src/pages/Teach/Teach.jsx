@@ -4,37 +4,103 @@ import './Teach.css';
 const Teach = () => {
   return (
     <div className="teach">
+      {/* Title */}
+      <section className="title">
+        <div className="title">
+          <img src="./img_teach/title.png" alt="Title Description" />
+        </div>
+      </section>
+
+      {/* Teachers */}
+      <section className="teachers">
+        <div className="teacher-grid">
+          {[
+            {
+              name: 'Ilze Kalniņa',
+              subject: 'Latviešu valoda un literatūra',
+              img: '/img_teach/teacher1.png',
+            },
+            {
+              name: 'Jānis Bērziņš',
+              subject: 'Fizikas un matemātikas skolotājs',
+              img: '/img_teach/teacher2.png',
+            },
+            {
+              name: 'Martiņš Ozols',
+              subject: 'Vēsture',
+              img: '/img_teach/teacher3.png',
+            },
+            {
+              name: 'Ilze Kalniņa',
+              subject: 'Latviešu valoda un literatūra',
+              img: '/img_teach/teacher4.png',
+            },
+            {
+              name: 'Jānis Bērziņš',
+              subject: 'Fizikas un matemātikas skolotājs',
+              img: '/img_teach/teacher5.png',
+            },
+            {
+              name: 'Martiņš Ozols',
+              subject: 'Vēsture',
+              img: '/img_teach/teacher1.png',
+            },
+            {
+              name: 'Jānis Bērziņš',
+              subject: 'Fizikas un matemātikas skolotājs',
+              img: '/img_teach/teacher2.png',
+            },
+            {
+              name: 'Martiņš Ozols',
+              subject: 'Vēsture',
+              img: '/img_teach/teacher3.png',
+            },
+            {
+              name: 'Ilze Kalniņa',
+              subject: 'Latviešu valoda un literatūra',
+              img: '/img_teach/teacher4.png',
+            },
+          ].map((teacher, index) => (
+            <div className="teacher-card" key={index}>
+              <img src={teacher.img} alt={teacher.name} />
+              <h4>{teacher.name}</h4>
+              <p>{teacher.subject}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="cta">
-  <form className="modern-form">
-    <h2>Aizpildi formu un uzzini, vai klasē ir brīvas vietas</h2>
+        <form className="modern-form">
+          <h2>Aizpildi formu un uzzini, vai klasē ir brīvas vietas</h2>
 
-    <input type="text" placeholder="Vārds" />
+          <input type="text" placeholder="Vārds" />
 
-    <div className="phone-input">
-      <div className="flag-select">
-        🇱🇻 <span className="arrow">▾</span>
-      </div>
-      <input type="tel" placeholder="+371..." />
-    </div>
+          <div className="phone-input">
+            <div className="flag-select">
+              🇱🇻 <span className="arrow">▾</span>
+            </div>
+            <input type="tel" placeholder="+371..." />
+          </div>
 
-    <input type="email" placeholder="E-pasts" />
+          <input type="email" placeholder="E-pasts" />
 
-    <button type="submit">Izmēģināt</button>
+          <button type="submit">Izmēģināt</button>
 
-    <small>
-      Nospiežot pogu, es piekrītu{' '}
-      <a href="#">personas datu apstrādei</a>.
-    </small>
-  </form>
-</section>
+          <small>
+            Nospiežot pogu, es piekrītu{' '}
+            <a href="#">personas datu apstrādei</a>.
+          </small>
+        </form>
+      </section>
 
       {/* Learning Style */}
       <section className="learning">
         <div className="learning-columns">
-            <div className = "mac-logo">
-                <img src="/img_home/mac.png" alt="Macamies" />
-            </div>
+          <div className="mac-logo">
+            <img src="/img_home/mac.png" alt="Macamies" />
+          </div>
           <div className="learning-box">
             <img src="/img_home/learn.png" alt="Learning" />
           </div>
@@ -60,13 +126,13 @@ const Teach = () => {
 
       {/* AI Helper */}
       <section className="ai-full-bg">
-        <div className = "margin">
-            <form className="ai-floating-form">
+        <div className="margin">
+          <form className="ai-floating-form">
             <input type="text" placeholder="Uzrakstiet savu jautājumu..." />
             <button type="submit">Nosūtīt</button>
-        </form>
-      </div>
-    </section>
+          </form>
+        </div>
+      </section>
     </div>
   );
 };

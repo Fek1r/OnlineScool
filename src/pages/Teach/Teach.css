@@ -1,3 +1,78 @@
+.title{
+    margin-top:10vh;
+    width: 80%;
+    margin-left:15%;
+    
+}
+
+.teachers {
+    padding: 50px 80px; /* было 20px — теперь больше отступы слева/справа */
+    text-align: center;
+    max-width: 1200px; /* ограничим ширину, чтобы контент не растягивался */
+    margin: 0 auto; /* выравнивание по центру */
+  }
+  
+  .teachers h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+  
+  .teacher-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* максимум 3 в ряд */
+    gap: 40px;
+    justify-items: center;
+  }
+  
+  .teacher-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 260px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .teacher-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .teacher-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 16px;
+  }
+  
+  .teacher-card h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 6px;
+  }
+  
+  .teacher-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  /* Адаптация для планшета и мобилок */
+  @media (max-width: 1024px) {
+    .teacher-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .teacher-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
 .cta {
     margin-top: 5vh;
   background-image: url('/public/img_home/25.png'); /* путь к твоему фону */
@@ -104,11 +179,11 @@
   /* ==== LEARNING ==== */
   .learning {
     width: 80%;
-    background: #f9f9f9;
     margin-left:15%;
   }
   
   .learning-columns {
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
@@ -118,12 +193,12 @@
     margin-top:5vh;
   }
  .learning-box{
+    background-color: white;
     margin-top:0 !important;
     
  }
   .learning-box {
     flex: 1;
-    background: #f9f9f9;
   }
   
 
@@ -165,10 +240,6 @@
     justify-content: center;
     padding: 20px;
     border-radius: 40px;
-  }
-  .margin{
-    margin-bottom: 5vh;
-    background-color: #f9f9f9;;
   }
   .ai-floating-form {
     display: flex;
