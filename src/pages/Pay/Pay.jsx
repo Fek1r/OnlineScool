@@ -4,6 +4,12 @@ import './Pay.css';
 const Pay = () => {
   return (
     <div className="pay">
+      <section className = "sale">
+        <div className = "sale-section">
+            <img src="/img_pay/sale.png" alt="sale" />
+            <button className="sale-button"> Izmēģiniet</button>
+        </div>
+      </section>
 
       <section className = "price">
         <div className = "price-text">
@@ -14,8 +20,9 @@ const Pay = () => {
             <img src="/img_pay/CenaBlue.png" alt="Blue Price" />
             <button className="price-button-blue"> Izmēģiniet</button>
         </div>
-        <div className = "price-re">
+        <div className = "price-red">
           <img src = "/img_pay/CenaRed.png" alt = "Red Price"/>
+          <button className="price-button-red"> Izmēģiniet</button>
         </div>
        </div>
       </section>

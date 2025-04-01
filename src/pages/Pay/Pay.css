@@ -4,7 +4,44 @@
     background-color: #f9f9f9;
   }
 
+
+  .sale-section {
+    width: 80%;
+    margin-left: 15%;
+    position: relative; /* для абсолютного позиционирования кнопки */
+    display: inline-block;
+  }
+  
+  .sale-section img {
+    display: block;
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .sale-button {
+    position: absolute;
+    bottom: 15vh; /* теперь кнопка внутри картинки */
+    left: 12%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .sale-button:hover {
+    background-color: #e4e4e4;
+  }
+
+
 .price-text{
+    margin-top:5vh;
     margin-left:28%;
 }
 
@@ -49,6 +86,39 @@
   
   .price-button-blue:hover {
     background-color: #e4e4e4;
+  }
+
+
+  .price-red {
+    position: relative; /* нужно для абсолютного позиционирования внутри */
+    display: inline-block;
+  }
+  
+  .price-red img {
+    display: block;
+    width: 100%; /* адаптивно */
+    height: auto;
+    border-radius: 10px; /* опционально, если нужно скругление */
+  }
+  
+  .price-button-red {
+    position: absolute;
+    bottom: -12vh !important; /* отступ от низа картинки */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .price-button-red:hover {
+    background-color: solid red;
   }
   
 
