@@ -1,6 +1,7 @@
 .home {
     font-family: Arial, sans-serif;
     color: #111;
+    background-color: #f9f9f9;
   }
   
   /* ==== HERO ==== */
@@ -9,14 +10,14 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 40px;
+    padding: 20px 250px;
     background-color: #f9f9f9;
    
   }
 
   
   .hero-content {
-    max-width: 600px;
+    max-width: 400px;
   }
   
   .hero .tag {
@@ -70,7 +71,7 @@
   }
   
   .hero-image img {
-    max-width: 600px;
+    max-width: 400px;
   }
   
   /* ==== STATS ==== */
@@ -91,19 +92,46 @@
     font-size: 18px;
   }
   .stats-img{
-    min-width: 00px;
+    max-width: 1000px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* ==== BENEFITS ==== */
 .benefits {
   margin: 0;
+  background-color: #f9f9f9;
   padding: 0 12px;
+  
+}
+.veiks{
+    margin-left:15%;
+    margin-top:5vh;
 }
 
 .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 220px);
+    grid-template-rows: repeat(2, 325px);
     gap: 16px;
+    width: 70%;
+    margin-left:15%;
+    margin-top:5vh;
   }
   
   .card {
@@ -133,13 +161,15 @@
   }
   
   
-  
-  
-
-  
+.join-block{
+    margin-left: 15%;
+    margin-top: 5vh;
+    max-width: 400px;
+}
   
   /* ==== CTA ==== */
   .cta {
+    margin-top: 5vh;
     display: flex;
     justify-content: space-between;
     padding: 60px 40px;

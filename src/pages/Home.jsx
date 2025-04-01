@@ -27,14 +27,16 @@ const Home = () => {
 
       {/* Benefits Section with images */}
       <section className="benefits">
+
         <div className = "veiks">
             <img src="/img/veiksmiga.png" alt="Veiksmiga" />
         </div>
+        
         <div className="cards">
-            <div className="card card-large">
+            <div className="card-large">
                 <img src="/img/atestats.png" alt="Atestāts" />
             </div>
-            <div className="card">
+            <div className="card card">
                 <img src="/img/macija.png" alt="Grafiks" />
             </div>
             <div className="card card-large">
@@ -44,15 +46,9 @@ const Home = () => {
                 <img src="/img/skolotaja.png" alt="Skolotājs" />
             </div>
         </div>
+
         <div className="join-block">
-          <div className="join-text">
-            <h3>Pievienojies <span className="highlight">4000+ veiksmīgiem skolēniem!</span></h3>
-            <p>[Skolas nosaukums] Jūs atradīsiet ne tikai zināšanas, bet arī domubiedru atbalstu.</p>
-            <button className="primary">Izmēģināt</button>
-          </div>
-          <div className="join-image">
-            <img src="/img/join.png" alt="Join us" />
-          </div>
+            <img src="/img/pievenojes.png" alt="Join us" />
         </div>
       </section>
 
