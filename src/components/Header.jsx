@@ -18,8 +18,8 @@ export const Header = () => {
         <div className="logo">ЛОГОТИП</div>
 
         <nav className="nav-links">
-          <button className="nav-button" href = "/home">Galvenā lapa</button>
-          <a href="/home">Par mums</a>
+          <a className="nav-button" href = "/">Galvenā lapa</a>
+          <a href="">Par mums</a>
           <a href="pay">Par apmaksu</a>
           <a href="#">Kontakti</a>
           <div className="lang-select">LV ⌄</div>

@@ -4,6 +4,22 @@ import './Pay.css';
 const Pay = () => {
   return (
     <div className="pay">
+
+      <section className = "price">
+        <div className = "price-text">
+          <img src = "/img_pay/CikMaksa.png" alt = "Cik Maksa"/>
+        </div>
+       <div className = "price-section">
+        <div className="price-blue">
+            <img src="/img_pay/CenaBlue.png" alt="Blue Price" />
+            <button className="price-button-blue"> Izmēģiniet</button>
+        </div>
+        <div className = "price-re">
+          <img src = "/img_pay/CenaRed.png" alt = "Red Price"/>
+        </div>
+       </div>
+      </section>
+
       <section className="ai-full-bg">
         <div className = "margin">
             <form className="ai-floating-form">
