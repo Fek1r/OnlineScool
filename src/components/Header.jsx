@@ -20,6 +20,7 @@ export const Header = () => {
         <nav className="nav-links">
           <a className="nav-button" href = "/">Galvenā lapa</a>
           <a href="">Par mums</a>
+          <a href="teach">Skolotāji</a>
           <a href="pay">Par apmaksu</a>
           <a href="#">Kontakti</a>
           <div className="lang-select">LV ⌄</div>

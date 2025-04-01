@@ -32,7 +32,7 @@
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 50px;
 }
 
 .nav-button {
