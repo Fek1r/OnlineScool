@@ -1,7 +1,6 @@
 import React from "react";
 import "./Layout.css";
 
-// ========== Header ==========
 export const Footer = () => {
     return (
       <footer className="footer">
@@ -35,18 +34,18 @@ export const Footer = () => {
           </div>
   
           <div>
-            <h4>Время работы</h4>
+            <h4>Darba laiks</h4>
             <p>
-              Рабочие дни 9.00–17.00<br />
-              Выходные - набираемся сил
+                Darba dienas 9.00–17.00<br />
+                Brīvdienās – krājam spēkus
             </p>
           </div>
         </div>
   
         <div className="footer-bottom">
-          <div>RU ⌄</div>
+          <div>LV ⌄</div>
           <div className="footer-links">
-            <a href="#">Sīkdatņu politika</a>
+            <a href="/#">Sīkdatņu politika</a>
             <a href="#">Privātuma politika</a>
             <a href="#">Lietošanas noteikumi</a>
           </div>

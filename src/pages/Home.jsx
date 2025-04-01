@@ -57,39 +57,36 @@ const Home = () => {
 
       {/* Call to Action */}
       <section className="cta">
-        <div className="cta-overlay">
-          <div className="cta-text">
-            <div className="badge">🎉 Jaungada atlaide! -25% pirmajam semestrim!</div>
-            <h1>
-              Izmēģini pirmo semestri
-              <br />
-              <span>ar atlaidi -25%</span>
-            </h1>
-            <p>
-              Izmanto Jaungada atlaidi un unikālu iespēju iziet divu klašu programmu vienā mācību gadā!
-              Aizpildi reģistrācijas formu.
-            </p>
-          </div>
-          <form className="cta-form">
-            <input type="text" placeholder="Vārds" />
-            <div className="phone-wrapper">
-              <span className="flag">🇱🇻</span>
-              <input type="tel" placeholder="+371..." />
-            </div>
-            <input type="email" placeholder="E-pasts" />
-            <button type="submit">Izmēģināt</button>
-            <small>
-              Nospiežot pogu, es piekrītu <a href="#">personas datu apstrādei</a>.
-            </small>
-          </form>
-        </div>
-      </section>
+  <form className="modern-form">
+    <h2>Aizpildi formu un uzzini, vai klasē ir brīvas vietas</h2>
+
+    <input type="text" placeholder="Vārds" />
+
+    <div className="phone-input">
+      <div className="flag-select">
+        🇱🇻 <span className="arrow">▾</span>
+      </div>
+      <input type="tel" placeholder="+371..." />
+    </div>
+
+    <input type="email" placeholder="E-pasts" />
+
+    <button type="submit">Izmēģināt</button>
+
+    <small>
+      Nospiežot pogu, es piekrītu{' '}
+      <a href="#">personas datu apstrādei</a>.
+    </small>
+  </form>
+</section>
 
       {/* Learning Style */}
       <section className="learning">
-        <img src="/img/" alt="" />
         <div className="learning-columns">
-          <div className="learning-box purple">
+            <div className = "mac-logo">
+                <img src="/img/mac.png" alt="Macamies" />
+            </div>
+          <div className="learning-box">
             <img src="/img/learn.png" alt="Learning" />
           </div>
         </div>
@@ -114,10 +111,12 @@ const Home = () => {
 
       {/* AI Helper */}
       <section className="ai-full-bg">
-      <form className="ai-floating-form">
-        <input type="text" placeholder="Uzrakstiet savu jautājumu..." />
-        <button type="submit">Nosūtīt</button>
-      </form>
+        <div className = "margin">
+            <form className="ai-floating-form">
+            <input type="text" placeholder="Uzrakstiet savu jautājumu..." />
+            <button type="submit">Nosūtīt</button>
+        </form>
+      </div>
     </section>
     </div>
   );
