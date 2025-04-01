@@ -94,25 +94,7 @@
   .stats-img{
     max-width: 1000px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* ==== BENEFITS ==== */
+/* ==== BENEFITS ==== */
 .benefits {
   margin: 0;
   background-color: #f9f9f9;
@@ -169,14 +151,26 @@
   
   /* ==== CTA ==== */
   .cta {
-    margin-top: 5vh;
+    margin-top:5vh;
+    background-image: url('/public/img/25%.png');
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0px;
     display: flex;
-    justify-content: space-between;
-    padding: 60px 40px;
-    background: #6d28d9;
+    justify-content: center;
     color: white;
+  }
+  
+  .cta-overlay {
+    display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    justify-content: space-between;
+    gap: 60px;
+    background-color: rgba(109, 40, 217, 0.95); /* фиолетовый overlay */
+    padding: 40px;
+    border-radius: 20px;
+    width: 65%;
+    max-width: 1200px;
   }
   
   .cta-text {
@@ -184,37 +178,76 @@
     min-width: 300px;
   }
   
+  .cta-text h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+  }
+  
   .cta-text span {
     color: #facc15;
   }
   
+  .cta-text .badge {
+    background: #7c3aed;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
   .cta-form {
     flex: 1;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     gap: 12px;
-    min-width: 300px;
+    background: white;
+    color: black;
+    padding: 24px;
+    border-radius: 16px;
   }
   
   .cta-form input {
     padding: 12px;
     border-radius: 8px;
-    border: none;
+    border: 1px solid #ccc;
+  }
+  
+  .cta-form .phone-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .cta-form .flag {
+    font-size: 1.2rem;
   }
   
   .cta-form button {
     background: #ef4444;
     color: white;
     padding: 12px;
-    border-radius: 8px;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
+  }
+  
+  .cta-form small {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  .cta-form a {
+    color: #6d28d9;
+    text-decoration: underline;
   }
   
   /* ==== LEARNING ==== */
   .learning {
-    padding: 60px 40px;
+    width: 80%;
     background: #f9f9f9;
+    margin-left:15%;
   }
   
   .learning-columns {
@@ -226,31 +259,31 @@
   
   .learning-box {
     flex: 1;
-    min-width: 280px;
-    padding: 24px;
     border-radius: 16px;
-    background: #ede9fe;
+    background: #f9f9f9;
   }
   
-  .learning-box.yellow {
-    background: #fef08a;
-  }
-  
-  .learning-box.purple {
-    background: #ddd6fe;
-  }
-  
+
   .learning-box ul {
     padding-left: 20px;
     list-style-type: disc;
   }
+
+
+
+
+
+
   
   /* ==== FAQ ==== */
   .faq {
+    width: 80%;
+    margin-left: 15%;
     padding: 60px 40px;
   }
   
   .faq details {
+    max-width: 80%;
     margin-bottom: 16px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 12px;
