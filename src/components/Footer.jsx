@@ -11,12 +11,14 @@ export const Footer = () => {
   
           <div>
             <h4>Navigācija</h4>
-            <ul>
-              <li>Galvenā lapa</li>
-              <li>Kā notiek mācības?</li>
-              <li>Skolotāji</li>
-              <li>Kontakti</li>
-            </ul>
+            <div className="footer1-links">
+              <ul>
+                <li><a href="/">Galvenā lapa</a></li>
+                <li><a href="/educ">Kā notiek mācības?</a></li>
+                <li><a href="/teach">Skolotāji</a></li>
+                <li><a href="/contact">Kontakti</a></li>
+              </ul>
+            </div>
           </div>
   
           <div>

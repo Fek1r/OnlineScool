@@ -105,9 +105,33 @@ background-color: #5b21b6;
   text-decoration: underline;
 }
 
+.footer1-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer1-links li {
+  margin-bottom: 8px; /* Расстояние между ссылками */
+}
+
+.footer1-links a {
+  color: #d1d5db;
+  text-decoration: none;
+}
+
+.footer1-links a:hover {
+  text-decoration: underline;
+}
+
 .copyright {
   text-align: center;
   margin-top: 16px;
   color: #9ca3af;
   font-size: 13px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
 }
