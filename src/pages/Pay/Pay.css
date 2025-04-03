@@ -8,6 +8,7 @@
   .sale-section {
     width: 80%;
     margin-left: 15%;
+    margin-top:5vh;
     position: relative; /* для абсолютного позиционирования кнопки */
     display: inline-block;
   }

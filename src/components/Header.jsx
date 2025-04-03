@@ -19,7 +19,6 @@ export const Header = () => {
 
         <nav className="nav-links">
           <a className="nav-button" href = "/">Galvenā lapa</a>
-          <a href="">Par mums</a>
           <a href="educ">Izglītība</a>
           <a href="teach">Skolotāji</a>
           <a href="pay">Par apmaksu</a>
