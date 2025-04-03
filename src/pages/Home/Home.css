@@ -1,7 +1,7 @@
 .home {
     font-family: Arial, sans-serif;
     color: #111;
-    background-color: #f9f9f9;
+    background-color: white ;
   }
   
   /* ==== HERO ==== */
@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 250px;
-    background-color: #f9f9f9;
+    background-color: white;
   }
   
   .hero-content {
@@ -76,7 +76,7 @@
   .stats {
     display: flex;
     justify-content: space-around;
-    background-color: #f9f9f9;
+    background-color: white;
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -95,7 +95,7 @@
 /* ==== BENEFITS ==== */
 .benefits {
   margin: 0;
-  background-color: #f9f9f9;
+  background-color: white;
   padding: 0 12px;
   
 }

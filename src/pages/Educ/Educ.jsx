@@ -4,6 +4,15 @@ import './Educ.css';
 const Educ = () => {
   return (
     <div className="educ">
+      <section className = "education">
+        <div className = "title-eduation"> 
+          <img src="/img_educ/titleEduc.png" alt="title" />
+        </div>
+        <div className = "map-eduation"> 
+          <img src="/img_educ/map_educ.png" alt="map" />
+        </div>
+
+      </section>
    
       {/* Call to Action */}
       <section className="cta">
