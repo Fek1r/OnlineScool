@@ -22,7 +22,7 @@ export const Header = () => {
           <a href="educ">Izglītība</a>
           <a href="teach">Skolotāji</a>
           <a href="pay">Par apmaksu</a>
-          <a href="#">Kontakti</a>
+          <a href="contact">Kontakti</a>
           <div className="lang-select">LV ⌄</div>
           <button className="try-button">Izmēģināt</button>
         </nav>

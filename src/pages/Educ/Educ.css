@@ -7,7 +7,7 @@
   margin-left:8%;
 }
 
-.cta {
+.cta{
     margin-top: 5vh;
     background-color:#f9f9f9;; /* путь к твоему фону */
     background-size: cover;
@@ -33,7 +33,7 @@
       text-align: center;
     }
     
-    .modern-form h2 {
+    .modern-form1h  {
       font-size: 1.2rem;
       color: #6d28d9;
       margin-bottom: 12px;
